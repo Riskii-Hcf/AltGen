@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-var token = "NDAyMDAzMzAyMTA5MjgyMzA1.DTyopQ.2W42aFUINO-Fv6SUJ86yTWhu8Fw";
+var token = "NDAyMDAzMzAyMTA9MjgyMzA1.DTyopQ.2W47aFUINO-Fv6SUJ86yTWhu1Fw";
 var prefix = "?";
 
 const talkedRecently = new Set();
