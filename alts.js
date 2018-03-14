@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 var token = "NDAyMDAzMzAyMTA5MjgyMzA1.DTyopQ.2W42aFUINO-Fv6SUJ86yTWhu8Fw";
-var prefix = "!";
+var prefix = "?";
 
 const talkedRecently = new Set();
 
@@ -68,7 +68,7 @@ member.addRole(memberRole.id);
 
 bot.on("guildMemberRemove", function(member) {
 bot.user.setPresence({ game: { name: ` ${bot.users.size} users! | do !getalt`, type: 5}});
-member.sendMessage("Oh... you left CosmosMC? if you ever want to rejoin here is invite link\nhttps://discord.gg/QKHMAJN");
+member.sendMessage("Oh... you left AltMc? if you ever want to rejoin here is invite link\nhttps://discord.gg/QKHMAJN");
 });
 
 
