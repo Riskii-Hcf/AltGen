@@ -72,4 +72,5 @@ member.sendMessage("Oh... you left AltMc? if you ever want to rejoin here is inv
 });
 
 
-bot.login(token);
+
+bot.login(process.env.BOT_TOKEN);
